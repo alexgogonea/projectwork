@@ -1,0 +1,55 @@
+body {
+    background-image: url(sfondo.jpg);
+    background-size: cover;
+    background-position: top;
+    text-align: center; 
+}
+
+h1 {
+    text-align: center;
+    font-size: 200px;
+    font-family: Sigmar One;
+    color: white;
+    -webkit-text-stroke-width: 10px;
+    -webkit-text-stroke-color: rgb(6, 55, 13);
+    padding-top: 10px;
+}
+
+img {
+    margin: 0 auto; 
+    height: 300px;
+    width: 300px;
+}
+
+#continua {
+    width: 800px;
+    height: 200px;
+    background-color: rgb(8, 121, 150);
+    border-radius: 20px;
+    border: solid 6px white;
+    margin:  auto; 
+    display: inline-block;
+    cursor: pointer;
+    font-family: Sigmar One;
+}
+
+/*codice per fare in modo che la scritta lampeggi*/
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }          
+    100% { opacity: 1; }
+}
+#touch{
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    animation: blink 1.5s infinite; 
+    
+}
+#paragrafo{
+    font-size: 70px;
+    font-family: Sigmar One;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+
+}
